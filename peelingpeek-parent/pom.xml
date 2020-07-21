@@ -111,22 +111,16 @@
         </dependencies>
     </dependencyManagement>
 
-    <!--<build>
+    <build>
         <plugins>
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
+				<version>2.1.4.RELEASE</version>
             </plugin>
         </plugins>
-    </build>-->
-	<build>
-		<plugin>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-maven-plugin</artifactId>
-			<!--当使用springboot构建服务，则该配置可省略-->
-			<version>2.1.4.RELEASE</version>
-		</plugin>
-	</build>
+    </build>
+	
 	
 
 </project>
